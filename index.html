@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Qual é a música Música imersão dev_</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header> <!-- cabeçalho (logo, menu de navegaçao, informaçoes de contato)-->
+        <h1>Qual é a música?</h1>
+        <nav></nav> <!-- menu de navegação -->
+    </header>
+
+    <main> <!-- conteúdo principal (textos, imagens, vídeos, formulários)-->
+        <section>
+            <input type="text" placeholder="Digite algo sobre a música" id="campo-pesquisa">
+            <p class="explicacao">A busca pode ser pelo nome da música, artista, álbum, gênero, letra ou ano de lançamento dela. <br></p>
+            <button onclick="pesquisar ()">Pesquisar</button>
+        </section>
+
+        <section id="resultados-pesquisa" class="resultados-pesquisa">
+        
+        </section>
+    </main>
+
+    <footer> <!-- rodapé (copyright, links para pol;iticas de privacidade, informações de contato)-->
+        <p>
+            2024 - Qual é a música. Todos os direitos reservados <br>
+            contato: raylan@musicas.com.br <br>
+            &copy; 2024 Imersão Dev_ Alura + Google Gemini
+        </p>
+
+    </footer>
+
+    <script src="dados.js"></script> <!--para fazer o link com o documento JS. Na sequencia é interessante colocar primeiro o banco de dados do seu site que ele irá utilziar e depois a lógica em que os dados serão utilizados -->
+    
+    <script src="app.js"> /*para fazer o LINK do javascript. Sempre a última tag dentro do body. Por estar usando o JS colocamos o parâmetro 'src' */
+
+    </script>
+</body>
+
+</html>
