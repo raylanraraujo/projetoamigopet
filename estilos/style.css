@@ -19,8 +19,7 @@ body {
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
     height: 100vh; /* Preenche a altura total da viewport */
-    margin: 0;
-    padding: 0;
+   
    
 }
 
@@ -117,15 +116,18 @@ img.music {
 .letmusic {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 13px 34px 10px 34px;
+    padding: 13px 13px 10px 34px;
     margin: 0px 0px 16px 0px;
     border-radius: 0rem 0rem 0.6rem 0.6rem;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
 .letmusic > a {
     text-decoration: none;
+    margin-top: 0px;
     margin-left: 582px;
-    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 a:hover {
@@ -173,8 +175,12 @@ a:hover {
 .descricao-meta {
     color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
+    margin-bottom: 0px;
 }
 
+p.historia{
+    margin: 0px 0px 24px 0px;
+}
 /* Estiliza o rodapé da página */
 footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
