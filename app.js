@@ -26,9 +26,9 @@ function pesquisar() {
             // Cria um novo elemento div para cada resultado 
             resultado += `
             <div class="resultado">
-                <div id="infmusic" class="flex-container">
-                    <div class="imgmusic">
-                        <img class="music" src="${dado.imagem}" alt=""> 
+                <div id="infpet" class="flex-container">
+                    <div class="imgpet">
+                        <img class="pet" src="${dado.imagem}" alt=""> 
                     </div>
                     
                     <ul class="detmusic">
@@ -43,7 +43,7 @@ function pesquisar() {
                     </ul>
                 </div>
 
-                <div class="letmusic">
+                <div class="letpet">
                     <h2>
                         ${dado.nome}
                     </h2>

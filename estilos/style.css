@@ -80,40 +80,40 @@ h2 {
     align-items: center;
 }
 
-#infmusic {
+#infpet {
     width: 757px;
     background-color: white;
     border-radius: 0.6rem 0.6rem 0rem 0rem;
     box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1);
     
 }
-#infmusic > .imgmusic {
+#infpet > .imgpet {
     float: left;
     margin: 5px 0px 0px 32px;
 }
 
-#infmusic > .detmusic{
+#infpet > .detpet{
     float: right;
     padding: 0px 0px;
     text-align: left;
     list-style: none;
 }
 
-.detmusic {
+.detpet {
     
     margin: 14px 0px 0px -31px;
 }
-.detmusic > li {
+.detpet > li {
     margin-bottom: 10px;
 }
 
-img.music {
+img.pet {
     height: 250px;
     border-radius: 20px;
     margin-right: 55px;
 }
 
-.letmusic {
+.letpet {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 13px 13px 10px 34px;
@@ -123,7 +123,7 @@ img.music {
 }
 
 
-.letmusic > a {
+.letpet > a {
     text-decoration: none;
     margin-top: 0px;
     margin-left: 582px;
