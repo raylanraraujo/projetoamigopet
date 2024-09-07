@@ -14,7 +14,7 @@ function pesquisar() {
     let resultado = "";
     let titulo = "";
 
-    // Itera sobre cada objeto de música no array de dados
+    // Itera sobre cada objeto de pet no array de dados
     for (let dado of dados) {
         // Todas as propriedades relevantes em uma única string concatenada
         const camposConcat = `${dado.nome} ${dado.especie} ${dado.raca} ${dado.sexo} ${dado.idade} ${dado.porte} ${dado.personalidade} ${dado.tags}`;
