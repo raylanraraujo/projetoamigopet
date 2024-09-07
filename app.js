@@ -5,7 +5,7 @@ function pesquisar() {
     let campoPesquisa = document.getElementById("campo-pesquisa").value.trim()
 
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Você precisa digitar algo sobre a música.</p>"
+        section.innerHTML = "<p>Você precisa digitar algo sobre o pet.</p>"
         return
     }
 
@@ -31,7 +31,7 @@ function pesquisar() {
                         <img class="pet" src="${dado.imagem}" alt=""> 
                     </div>
                     
-                    <ul class="detmusic">
+                    <ul class="detpet">
                         <li><strong>Nome:</strong> ${dado.nome}</li>
                         <li><strong>Espécie:</strong> ${dado.especie}</li>
                         <li><strong>Raça:</strong> ${dado.raca}</li>

@@ -18,7 +18,7 @@ let dados = [
     imagem : "imagens/ronron.jpeg",
     nome : "Ronron",
     especie : "Gato",
-    raca : "Siamês",
+    raca : "SRD (Sem Raça Definida)",
     sexo : "Macho",
     idade: "11 meses",
     porte : "Pequeno",
@@ -26,7 +26,7 @@ let dados = [
     historia : "Sou o Ronron. Um lindo bebê de 11 meses e estou vermifugado, castrado e sou <br> negativo Fiv Felv!",
 
     link : "https://www.amigonaosecompra.com.br/pets/ronron-11meses-sao-paulo-sao-paulo-macho-5f200c15-ac3d-490f-a43e-3d58b32bcea5",
-    tags : "siames docil brincalhao independente",
+    tags : "docil brincalhao independente",
   },
 
   {
@@ -48,7 +48,7 @@ let dados = [
     imagem : "imagens/luara.jpeg",
     nome : "Luara",
     especie : "Gato",
-    raca : "Siamês",
+    raca : "SRD (Sem Raça Definida)",
     sexo : "Fêmea",
     idade: "5 meses",
     porte : "Pequeno",
@@ -56,7 +56,7 @@ let dados = [
     historia : "Sou uma linda bebê de 5 meses , tenho pelo longo lindo e estou castrada, vermífugada, <br>despulgada ,testada negativo para Fiv Felv. Sou uma bebê muito dócil e me dou bem <br>com outros gatinhos.",
 
     link : "https://www.amigonaosecompra.com.br/pets/luara-bb5meses-sao-paulo-sao-paulo-femea-653fca6e-f773-4fcb-bebd-dfd3f2deec4f",
-    tags : "siames docil sociavel",
+    tags : "docil sociavel",
   },
 
   {
@@ -78,7 +78,7 @@ let dados = [
     imagem : "imagens/marcelo.jpeg",
     nome : "Marcelo",
     especie : "Gato",
-    raca : "Siamês",
+    raca : "SRD (Sem Raça Definida)",
     sexo : "Macho",
     idade: "3 meses",
     porte : "Pequeno",
@@ -86,7 +86,7 @@ let dados = [
     historia : "Bebê lindo de 3 meses, castrado, vermífugado ,despulgado testado negativo para <br>Fiv Felv. Sou muito brincalhão e bonzinho. Eu gosto de outros gatinhos !",
 
     link : "https://www.amigonaosecompra.com.br/pets/marcelo-3meses-sao-paulo-sao-paulo-macho-30f4c29a-4c56-43c8-924a-741384045807",
-    tags : "siames docil sociavel",
+    tags : "docil sociavel",
   },
 
   {
@@ -108,7 +108,7 @@ let dados = [
     imagem : "imagens/preta.jpeg",
     nome : "Preta",
     especie : "Gato",
-    raca : "Siamês",
+    raca : "SRD (Sem Raça Definida)",
     sexo : "Fêmea",
     idade: "3 anos",
     porte : "Pequeno",
@@ -146,7 +146,7 @@ let dados = [
     historia : "Marrone foi abandonado e vivia abandonado nas ruyas. Hoje ele está vacinado, <br> vermifugado e Fiv Felv negativo. Dócil e carinhhoso é uma companhia incrível <br>para qualquer um que ame animal.",
 
     link : "https://www.amigonaosecompra.com.br/pets/marrone-sao-paulo-guarulhos-macho-64b0d03a-33a0-4da2-82e0-e95bf6b89b29",
-    tags : "docil brincalhao independente",
+    tags : "siames docil brincalhao independente",
   },
 
 ]; /*criando uma variável DADOS no estilo de lista. Assim consegue guardar mais de uma variável ao mesmoo tempo */ 
